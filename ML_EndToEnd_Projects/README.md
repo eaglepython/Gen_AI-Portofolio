@@ -1,3 +1,15 @@
+
+<div align="center">
+	<h1>ML & GenAI End-to-End Portfolio</h1>
+	<a href="https://eaglepython.github.io/Gen_AI-Portofolio/" target="_blank">
+		<img src="https://img.shields.io/badge/Live%20Portfolio-View%20Now-19d4ff?style=for-the-badge&logo=vercel" alt="Live Portfolio" />
+	</a>
+	<br/>
+	<a href="https://eaglepython.github.io/Gen_AI-Portofolio/" target="_blank">
+		<img src="ML_EndToEnd_Projects/portfolio_website/public/portfolio_screenshot.png" alt="Portfolio Screenshot" width="700" style="border-radius: 1.2rem; box-shadow: 0 4px 32px #19d4ff33; margin: 2rem 0;"/>
+	</a>
+</div>
+
 # ML End-to-End Projects Collection
 
 A comprehensive collection of 15 production-ready machine learning projects covering traditional ML and generative AI approaches. Each project follows MLOps best practices with complete end-to-end pipelines from data collection to deployment and monitoring.
@@ -37,13 +49,16 @@ CNN-based classification of medical images with transfer learning and explainabi
 - **Algorithms**: ResNet, EfficientNet, Vision Transformer
 - **Features**: Data augmentation, Grad-CAM, DICOM support
 
-# ML & GenAI End-to-End Portfolio
 
-Welcome! This portfolio contains 15+ real-world Machine Learning and Generative AI projects, each designed for easy demo, job interviews, and daily reference. Every project is:
-- **Easy to run**: One-click launch for both backend (API) and dashboard
-- **Well-documented**: Clear instructions, sample results, and screenshots
-- **Presentation-ready**: Exportable results and charts for slides or reports
-- **Production-minded**: Docker/cloud deployment, modular code, and best practices
+---
+
+## 🌐 [Live Portfolio Website](https://eaglepython.github.io/Gen_AI-Portofolio/)
+
+> **Showcase your ML & GenAI work with a modern, interactive portfolio!**
+
+- Modern Next.js 14+ site with dark theme, smooth navigation, and animated sections
+- All projects, resume, skills, and contact in one place
+- [View the code](ML_EndToEnd_Projects/portfolio_website)
 
 ---
 
