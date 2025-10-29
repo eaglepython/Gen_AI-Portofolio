@@ -1,6 +1,9 @@
 
+
 <div align="center">
-	<h1>ML & GenAI End-to-End Portfolio</h1>
+	<h1 style="font-size:2.7rem; font-weight:900; color:#19d4ff; letter-spacing:0.04em; margin-bottom:0.5rem;">
+		<span style="font-size:2.2rem;">🚀</span> <span style="background:linear-gradient(90deg,#19d4ff,#6c63ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">ML &amp; GenAI End-to-End Portfolio</span> <span style="font-size:2.2rem;">🤖</span>
+	</h1>
 	<a href="https://eaglepython.github.io/Gen_AI-Portofolio/" target="_blank">
 		<img src="https://img.shields.io/badge/Live%20Portfolio-View%20Now-19d4ff?style=for-the-badge&logo=vercel" alt="Live Portfolio" />
 	</a>
