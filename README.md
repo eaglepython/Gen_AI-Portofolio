@@ -164,7 +164,8 @@ A modern interactive portfolio website is included:
 **How to run:**
 1. Navigate to the portfolio site folder:
    ```sh
-   cd ML_EndToEnd_Projects/portfolio_website
+   cd ML_EndToEnd_Projects/portfolio_website  cd ML_EndToEnd_Projects/portfolio_website
+  npm run build
    ```
 2. Install dependencies:
    ```sh

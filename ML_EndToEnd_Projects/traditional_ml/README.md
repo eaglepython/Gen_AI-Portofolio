@@ -6,6 +6,7 @@ This folder contains classic machine learning projects with APIs, dashboards, an
 
 - **01_ecommerce_recommender**: Personalized product recommendations
 - **02_credit_risk_assessment**: Credit scoring and risk analysis
+- **03_credit_risk_cecl_model**: Regulatory-compliant credit risk & CECL modeling (PD, LGD, EAD, API, dashboard, validation, compliance)
 - **03_stock_forecasting**: Stock price prediction
 - **04_computer_vision**: Image classification and detection
 - **05_nlp_text_analysis**: Sentiment, NER, summarization

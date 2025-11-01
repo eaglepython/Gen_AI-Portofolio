@@ -1,0 +1,16 @@
+pandas
+numpy
+scikit-learn
+xgboost
+lifelines
+statsmodels
+matplotlib
+seaborn
+fastapi
+uvicorn
+streamlit
+jinja2
+sqlalchemy
+docker
+mlflow
+jupyter
