@@ -1,12 +1,31 @@
-# E-commerce Recommender System ML End-to-End
 
-## Project Overview
+<div align="center">
+  <h1 style="font-size:2.3rem; font-weight:900; color:#19d4ff; letter-spacing:0.04em; margin-bottom:0.5rem;">
+    🛒 E-commerce Recommender System — End-to-End ML
+  </h1>
+  <img src="docs/rec_results.png" alt="Recommendation Results" width="600" style="border-radius: 1.2rem; box-shadow: 0 4px 32px #19d4ff33; margin: 2rem 0;"/>
+  <br/>
+  <img src="docs/dashboard_screenshot.png" alt="Dashboard Screenshot" width="600" style="border-radius: 1.2rem; box-shadow: 0 4px 32px #19d4ff33; margin: 2rem 0;"/>
+</div>
 
-The E-commerce Recommender System is a production-ready hybrid recommendation engine that combines collaborative filtering, content-based filtering, and deep learning approaches. The system provides personalized product recommendations through real-time APIs and interactive dashboards, with comprehensive A/B testing capabilities and cold-start problem handling.
+---
 
-## Architecture
+## 🚩 Project Overview
 
-The system follows a modular pipeline architecture: **Load → Preprocess → Feature Engineering → Train → Tune → Evaluate → Inference → Batch → Serve**
+The E-commerce Recommender System is a **production-grade, hybrid recommendation engine** combining collaborative filtering, content-based, and deep learning models. It delivers personalized product recommendations via real-time APIs and interactive dashboards, with:
+- A/B testing and experiment tracking
+- Cold-start handling for new users/items
+- Business metric monitoring (CTR, conversion, revenue)
+
+
+---
+
+## 🏗️ Architecture
+
+<img src="docs/architecture_diagram.png" alt="Architecture Diagram" width="700"/>
+
+**Pipeline:**  
+`Load → Preprocess → Feature Engineering → Train → Tune → Evaluate → Inference → Batch → Serve`
 
 ### Core Modules
 
@@ -35,7 +54,10 @@ The system follows a modular pipeline architecture: **Load → Preprocess → Fe
   - A/B testing results visualization
   - Product catalog exploration with recommendation explanations
 
-## Recommendation Algorithms
+
+---
+
+## 🧠 Recommendation Algorithms
 
 ### 1. Collaborative Filtering
 - **Matrix Factorization (SVD)**: Latent factor models for user-item interactions
@@ -52,7 +74,10 @@ The system follows a modular pipeline architecture: **Load → Preprocess → Fe
 - **Wide & Deep**: Combining memorization and generalization for recommendations
 - **Neural Matrix Factorization**: Enhanced matrix factorization with neural networks
 
-## Data Sources & Features
+
+---
+
+## 📦 Data Sources & Features
 
 ### User Features
 - Demographics (age, gender, location)
@@ -72,7 +97,10 @@ The system follows a modular pipeline architecture: **Load → Preprocess → Fe
 - Temporal patterns (time of purchase, seasonality)
 - Context features (device, session information)
 
-## Cold-Start Handling
+
+---
+
+## ❄️ Cold-Start Handling
 
 ### New Users
 - Content-based recommendations using demographic similarity
@@ -86,7 +114,10 @@ The system follows a modular pipeline architecture: **Load → Preprocess → Fe
 - Promotional boosting for new product launches
 - Hybrid approach combining content and collaborative signals
 
-## A/B Testing Framework
+
+---
+
+## 🧪 A/B Testing Framework
 
 ### Experiment Infrastructure
 - Multi-armed bandit approach for algorithm selection
@@ -100,7 +131,10 @@ The system follows a modular pipeline architecture: **Load → Preprocess → Fe
 - Personalization level optimization
 - UI/UX recommendation presentation testing
 
-## Cloud Infrastructure & Deployment
+
+---
+
+## ☁️ Cloud Infrastructure & Deployment
 
 ### AWS Services
 - **S3**: Model artifacts, feature stores, and data lake storage
@@ -121,7 +155,10 @@ The system follows a modular pipeline architecture: **Load → Preprocess → Fe
 - **MLflow**: Experiment tracking and model versioning
 - **Custom Dashboards**: Business metrics and recommendation quality monitoring
 
-## Data Leakage Prevention
+
+---
+
+## 🔒 Data Leakage Prevention
 
 ### Temporal Validation
 - Time-based data splitting (train: <2024, validation: 2024, test: 2025+)
@@ -133,7 +170,10 @@ The system follows a modular pipeline architecture: **Load → Preprocess → Fe
 - User-based holdout to prevent user information leakage
 - Item-based validation for new product scenarios
 
-## Common Commands
+
+---
+
+## 🛠️ Common Commands
 
 ### Environment Setup
 ```bash
@@ -233,7 +273,10 @@ mlflow experiments list
 mlflow runs list --experiment-id 1
 ```
 
-## Evaluation Metrics
+
+---
+
+## 📈 Evaluation Metrics
 
 ### Ranking Metrics
 - **NDCG@K**: Normalized Discounted Cumulative Gain
@@ -253,7 +296,10 @@ mlflow runs list --experiment-id 1
 - **Revenue Impact**: Total revenue generated from recommendations
 - **User Engagement**: Time spent exploring recommended items
 
-## Key Design Patterns
+
+---
+
+## 🏗️ Key Design Patterns
 
 ### Hybrid Architecture
 - **Late Fusion**: Weighted combination of algorithm scores
@@ -270,7 +316,10 @@ mlflow runs list --experiment-id 1
 - **Model Serving**: TensorFlow Serving for deep learning models
 - **Incremental Learning**: Online updates with new user interactions
 
-## Dependencies
+
+---
+
+## 📦 Dependencies
 
 Core production dependencies:
 ```toml
@@ -309,7 +358,10 @@ prometheus-client = ">=0.17.0"
 structlog = ">=23.1.0"
 ```
 
-## File Structure
+
+---
+
+## 📁 File Structure
 
 ```
 ecommerce_recommender/
@@ -407,7 +459,10 @@ ecommerce_recommender/
         └── model_training.yml         # Automated model training
 ```
 
-## Sample Dataset
+
+---
+
+## 🗃️ Sample Dataset
 
 The project includes data generation scripts that create realistic e-commerce interaction data:
 
@@ -417,7 +472,33 @@ The project includes data generation scripts that create realistic e-commerce in
 - **Temporal patterns** with seasonality and trending effects
 - **Cold-start scenarios** with new users and products
 
-## Performance Benchmarks
+
+---
+
+## 🏅 Performance Benchmarks & Results
+
+### Offline Metrics (MovieLens-25M)
+| Model | NDCG@10 | Recall@20 | MAP@10 |
+|-------|---------|-----------|--------|
+| Hybrid | **0.387** | 0.241 | 0.298 |
+| Collaborative | 0.372 | **0.245** | 0.281 |
+| Content-Based | 0.321 | 0.198 | 0.244 |
+
+### Online Metrics (Production)
+- **API Latency:** <50ms p95
+- **Throughput:** 1000+ req/sec
+- **Cache Hit Rate:** >85%
+- **Model Update Frequency:** Daily
+
+### Business Impact
+- **CTR Improvement:** +23% vs. random
+- **Conversion Rate:** +15% vs. popularity
+- **Revenue Impact:** +8% from recommendations
+- **User Engagement:** +31% time spent
+
+<img src="docs/rec_results.png" alt="NDCG/Recall/MAP Results" width="500"/>
+
+---
 
 ### Offline Metrics (MovieLens-25M)
 - **NDCG@10**: 0.387 (Hybrid model)
@@ -436,6 +517,12 @@ The project includes data generation scripts that create realistic e-commerce in
 - **Revenue Impact**: +8% from recommendation-driven purchases
 - **User Engagement**: +31% time spent exploring recommendations
 
-## About
+
+## ℹ️ About
+
 
 This E-commerce Recommender System demonstrates production-ready recommendation engineering with modern MLOps practices, covering everything from data engineering to model deployment and monitoring in cloud environments.
+
+---
+
+> **For more results, dashboards, and code, see the [docs/](docs/) and [notebooks/](notebooks/) folders!**

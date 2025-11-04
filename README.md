@@ -30,15 +30,25 @@ This repository contains 15+ complete Machine Learning and Generative AI project
 
 - `ML_EndToEnd_Projects/`
   - `gen_ai/` — Generative AI projects
-    - `11_ai_code_generator/` — Code generation from natural language
-    - `12_ai_content_creator/` — Text & image content creation
-    - `13_document_intelligence/` — Document analysis
-    - ...
+    - [`11_ai_code_generator/`](ML_EndToEnd_Projects/gen_ai/11_ai_code_generator/) — Code generation from natural language
+    - [`12_ai_content_creator/`](ML_EndToEnd_Projects/gen_ai/12_ai_content_creator/) — Text & image content creation
+    - [`13_document_intelligence/`](ML_EndToEnd_Projects/gen_ai/13_document_intelligence/) — Document analysis
+    - [`14_conversational_ai/`](ML_EndToEnd_Projects/gen_ai/14_conversational_ai/) — Conversational AI/chatbots
+    - [`15_drug_discovery_ai/`](ML_EndToEnd_Projects/gen_ai/15_drug_discovery_ai/) — Drug discovery AI
   - `traditional_ml/` — Classic ML projects
-    - `01_ecommerce_recommender/` — Product recommendations
-    - `03_stock_forecasting/` — Stock price prediction
-    - `05_nlp_text_analysis/` — Sentiment, NER, summarization
-    - ...
+    - [`01_ecommerce_recommender/`](ML_EndToEnd_Projects/traditional_ml/01_ecommerce_recommender/) — Product recommendations
+    - [`02_credit_risk_assessment/`](ML_EndToEnd_Projects/traditional_ml/02_credit_risk_assessment/) — Credit risk scoring
+    - [`03_credit_risk_cecl_model/`](ML_EndToEnd_Projects/traditional_ml/03_credit_risk_cecl_model/) — Credit risk & CECL modeling
+    - [`03_stock_forecasting/`](ML_EndToEnd_Projects/traditional_ml/03_stock_forecasting/) — Stock price prediction (legacy)
+    - [`04_stock_forecasting/`](ML_EndToEnd_Projects/traditional_ml/04_stock_forecasting/) — Stock price prediction (current)
+    - [`05_computer_vision/`](ML_EndToEnd_Projects/traditional_ml/05_computer_vision/) — Image classification and detection
+    - [`06_nlp_text_analysis/`](ML_EndToEnd_Projects/traditional_ml/06_nlp_text_analysis/) — Sentiment, NER, summarization
+    - [`07_fraud_detection/`](ML_EndToEnd_Projects/traditional_ml/07_fraud_detection/) — Fraud detection in transactions
+    - [`08_customer_churn/`](ML_EndToEnd_Projects/traditional_ml/08_customer_churn/) — Churn prediction
+    - [`09_supply_chain_optimization/`](ML_EndToEnd_Projects/traditional_ml/09_supply_chain_optimization/) — Supply chain analytics
+    - [`10_energy_prediction/`](ML_EndToEnd_Projects/traditional_ml/10_energy_prediction/) — Energy consumption forecasting
+    - [`11_autonomous_vehicle/`](ML_EndToEnd_Projects/traditional_ml/11_autonomous_vehicle/) — Autonomous vehicle ML
+    - [`credit_risk_cecl_model/`](ML_EndToEnd_Projects/traditional_ml/credit_risk_cecl_model/) — Credit risk & CECL modeling suite
   - `dashboard.py` — Central Streamlit landing page
   - `requirements.txt` — All dependencies
   - `Dockerfile` — Base Docker image for all projects

@@ -4,17 +4,14 @@ This folder contains classic machine learning projects with APIs, dashboards, an
 
 ## Projects
 
-- **01_ecommerce_recommender**: Personalized product recommendations
-- **02_credit_risk_assessment**: Credit scoring and risk analysis
-- **03_credit_risk_cecl_model**: Regulatory-compliant credit risk & CECL modeling (PD, LGD, EAD, API, dashboard, validation, compliance)
-- **03_stock_forecasting**: Stock price prediction
-- **04_computer_vision**: Image classification and detection
-- **05_nlp_text_analysis**: Sentiment, NER, summarization
-- **06_fraud_detection**: Fraud detection in transactions
-- **07_customer_churn**: Churn prediction
-- **08_supply_chain_optimization**: Supply chain analytics
-- **09_energy_prediction**: Energy consumption forecasting
-- **10_autonomous_vehicle**: Autonomous vehicle ML
+**04_stock_forecasting**: Stock price prediction
+**05_computer_vision**: Image classification and detection
+**06_nlp_text_analysis**: Sentiment, NER, summarization
+**07_fraud_detection**: Fraud detection in transactions
+**08_customer_churn**: Churn prediction
+**09_supply_chain_optimization**: Supply chain analytics
+**10_energy_prediction**: Energy consumption forecasting
+**11_autonomous_vehicle**: Autonomous vehicle ML
 
 ## How to Run
 
