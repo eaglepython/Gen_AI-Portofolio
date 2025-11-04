@@ -1,8 +1,10 @@
-name: Deploy to GitHub Pages
+name: Deploy Portfolio Website to GitHub Pages
 
 on:
   push:
     branches: [ main, itpages ]
+    paths: 
+      - 'ML_EndToEnd_Projects/portfolio_website/**'
   workflow_dispatch:
 
 permissions:
@@ -33,7 +35,7 @@ jobs:
           cd ML_EndToEnd_Projects/portfolio_website
           npm ci
           
-      - name: Build
+      - name: Build website
         run: |
           cd ML_EndToEnd_Projects/portfolio_website
           npm run build
