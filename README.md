@@ -161,7 +161,32 @@ npm run dev
 
 ---
 
-## Portfolio Website & Resume
+[![Portfolio Website](https://img.shields.io/badge/🌐_Portfolio_Website-LIVE-00d4ff?style=for-the-badge&logo=vercel&logoColor=white)](https://eaglepython.github.io/Gen_AI-Portofolio/)
+[![The 7th Sense](https://img.shields.io/badge/🔮_The_7th_Sense-Interactive_Experience-6c63ff?style=for-the-badge)](https://eaglepython.github.io/Gen_AI-Portofolio/)
+
+> **🚀 [LIVE PORTFOLIO WEBSITE](https://eaglepython.github.io/Gen_AI-Portofolio/) 🚀**
+> 
+> Experience the complete interactive portfolio with earthquake launch animation, spinning 3D profile, and all 16 ML/GenAI projects in a stunning visual presentation.
+
+---
+
+# 🏆 The 7th Sense: Complete ML/GenAI Portfolio
+
+**Quantitative Researcher & Software Engineer** specializing in **AI/ML Solutions**, **Algorithmic Trading**, and **Full-Stack Development**
+
+## 🌟 Interactive Portfolio Website
+
+<div align="center">
+
+### 🎯 **[VISIT LIVE WEBSITE](https://eaglepython.github.io/Gen_AI-Portofolio/)**
+
+*Experience the earthquake launch animation, 3D effects, and interactive project showcases*
+
+</div>
+
+---
+
+## 📊 Portfolio Analytics
 
 A modern interactive portfolio website is included:
 - **Tech:** Next.js 14+, React, Framer Motion, Tailwind CSS
