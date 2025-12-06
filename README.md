@@ -235,7 +235,7 @@ ML_EndToEnd_Projects/
 ## 🎓 Education & Certifications
 
 ### **Academic Excellence**
-- 🎓 **PhD in Integrative Medicine / Biomedical Data Sciences** - Quantum University (2026)
+- 🎓 **PhD in Integrative Medicine / Biomedical Data Sciences** - Quantum University (2020)
 - 🎓 **MS Financial Engineering** - WorldQuant University (2023)
 - 🎓 **BS Biomedical Engineering** - University of Cameroon (2013)
 
