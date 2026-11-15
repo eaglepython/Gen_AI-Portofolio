@@ -118,8 +118,8 @@ python launch_demo.py
 
 ## Education and certifications
 
-- M.S. Financial Engineering, WorldQuant University (in progress)
-- B.S. Biomedical Engineering, High Institute of Medical Technologies, Yaoundé, Cameroon
+- M.S. Financial Engineering, WorldQuant University 
+- B.S. Biomedical Engineering, University of Cameron
 - AWS Machine Learning Specialty
 - Microsoft Certified: Data Scientist Associate
 - AI Solution Architect, ELVTR
