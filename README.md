@@ -118,7 +118,7 @@ python launch_demo.py
 
 ## Education and certifications
 
-- M.S. Financial Engineering, WorldQuant University 
+- M.S. Financial Engineering, WorldQuant University (completed June 2026)
 - B.S. Biomedical Engineering, University of Cameron
 - AWS Machine Learning Specialty
 - Microsoft Certified: Data Scientist Associate
